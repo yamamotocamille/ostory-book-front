@@ -1,0 +1,75 @@
+@use 'reset';
+@use 'vars';
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: vars.$textFont;
+  background: url(src/assets/images/home-backgroud-tawatchai07.jpg) no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  color: vars.$light-color;
+}  
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 300;
+    color: vars.$element-color;
+    font-size: 50px;
+    line-height: 1.12;
+    letter-spacing: 0.73px;
+    margin: 25px;
+    font-family: vars.$titleFont;
+    text-align: center;
+}
+
+h2 {
+  font-family: vars.$titleFont;
+  font-weight: 400;
+  color: vars.$h2Color;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.51px;
+  margin: 25px 0;
+}
+
+h3 {
+  font-family: vars.$titleFont;
+    font-weight: 400;
+    color: vars.$element-color;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.51px;
+    margin: 25px 0;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.33px;
+  font-weight: bold;
+}

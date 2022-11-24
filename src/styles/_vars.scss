@@ -1,0 +1,38 @@
+@use 'sass:math';
+
+// BASIC COLORS
+$light-color: #fff;
+$dark-color: #000;
+
+// BUTTON AND BORDER COLORS
+$element-color: #d06d6d;
+$element-color-hover: #ac5858;
+
+// MESSAGE COLORS
+$winMessage:#f1d180;
+$winMessageBorder:#ebbe4d;
+$lossMessage: #d06d6d;
+$lossMessageBorder:#ac5858;
+
+// BACKGROUND COLOR
+$containerBackgroundColor: #000000b3;
+
+// TITLE COLORS
+$h1Color:#d06d6d;
+$h2Color:#f1d180;
+$h3Color:#d06d6d;
+
+// IMAGE BACKGROUND COLOR
+$imageBackground: #faebd7;
+
+// LINK UNDERLINE COLOR
+$linkUnderline: #f1d180;
+
+// FONTS
+$titleFont: "Frank Ruhl Libre",serif;
+$textFont: "Pompiere", sans-serif;
+$buttonFont: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+// INPUT STYLE
+$inputBorder: 1px solid #ddd;
+$inputColor: #999;
